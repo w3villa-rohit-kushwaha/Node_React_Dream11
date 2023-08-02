@@ -1,0 +1,34 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  }
+
+  .match-item {
+    width: calc(33.33% - 20px); /* 33.33% width for three columns, minus the margin */
+    margin: 10px; /* Updated margin for spacing between match items */
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 8px;
+  }
+
+  .match-item p {
+    margin: 5px 0;
+  }
+
+  .no-matches {
+    font-weight: bold;
+    color: #f00;
+  }
+
+  /* Framer Motion Animation */
+  .motion-container {
+    opacity: 0;
+  }
+
+  .motion-container-enter-active,
+  .motion-container-exit-active {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }

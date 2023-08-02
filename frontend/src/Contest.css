@@ -1,0 +1,97 @@
+/* Contest.css */
+
+.contest-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .contest-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+
+  .contest-list {
+    list-style: none;
+    padding: 0;
+  }
+
+/* Contest.css */
+
+.contest-item {
+    background-color: #f9f9f9;
+    border: 1px solid #6e6565;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 60px;
+    box-shadow: 10px 10px 4px 1px rgb(78, 115, 215);
+  }
+
+  .contest-item:hover { /* Corrected spelling of :hover */
+    position: relative;
+    box-shadow: 10px 10px 4px 1px rgb(13, 87, 22);
+  }
+
+  .contest-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .make-team-link{
+    margin-top: 5% !important;
+  }
+
+  .make-team-link,
+  .teams-link {
+    margin-top: 10%;
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    /* margin-top: 10px;
+    margin: 40px; */
+    margin-top: 20px;
+    border: 2px solid rgb(115, 115, 141);
+    position: absolute;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .make-team-link:hover,
+  .teams-link:hover {
+    text-decoration: underline;
+    background-color: #007bff;
+    color: #f9f9f9;
+    /* transition: scale(1.5); */
+  }
+
+
+  /* Contest name styles */
+  .contest-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+  }
+
+  /* Entry fee styles */
+  .contest-fee {
+    color: #28a745; /* Green color */
+  }
+
+  /* Max entry styles */
+  .contest-max-fee {
+    color: #dc3545; /* Red color */
+  }
+
+  /* Prize pool styles */
+  .contest-prize {
+    color: #ffc107; /* Yellow color */
+  }
+
+  /* Animation on hover */
+  .contest-item:hover {
+    transform: scale(1.16);
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }

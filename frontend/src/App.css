@@ -1,0 +1,97 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.matches-li {
+  padding: 30px;
+  border: 2px solid rgb(160, 93, 93);
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+
+Link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+/* Define the initial styles */
+.heading-team {
+  font-size: 39px;
+  padding: 5px;
+  color: #5c90e9; /* Use a different color, e.g., orange */
+  opacity: 0; /* Start with 0 opacity */
+  transform: translateX(-100%); /* Start position: outside the left edge */
+}
+
+/* Add the animation */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* End position: back to the original position */
+  }
+}
+
+/* Apply the animation to the element */
+.heading-team {
+  animation-name: slideInFromLeft;
+  animation-duration: 1s; /* Animation duration */
+  animation-timing-function: ease-in-out; /* Animation timing function */
+  animation-fill-mode: forwards; /* Keep the final styles after animation */
+}
+/* Styling for the list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for each list item */
+.matches-li {
+  margin-bottom: 10px;
+  background-color: rgb(236, 241, 241);
+  box-shadow: 2px 2px 10px 1px;
+}
+
+/* Styling for the links */
+.matches-li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #007bff; /* You can choose any color you like */
+  font-weight: bold;
+}
+
+.matches-li a:hover {
+  /* text-decoration: underline; */
+  color: green;
+}

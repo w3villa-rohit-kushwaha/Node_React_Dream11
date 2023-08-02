@@ -1,0 +1,132 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "team1": "India",
+      "team2": "Australia",
+      "venue": "MCG",
+      "date": "2023-07-23",
+      "time": "10:00 AM IST"
+    }
+  ],
+  "contests": [
+    {
+      "id": 1,
+      "name": "India vs Australia",
+      "entry_fee": 100,
+      "max_entry": 100,
+      "prize_pool": 10000
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "India",
+      "players": [
+        {
+          "id": 1,
+          "name": "Rohit Sharma",
+          "role": "Batsman",
+          "price": 100
+        },
+        {
+          "id": 2,
+          "name": "Virat Kohli",
+          "role": "Batsman",
+          "price": 150
+        },
+        {
+          "id": 3,
+          "name": "KL Rahul",
+          "role": "Batsman",
+          "price": 100
+        },
+        {
+          "id": 4,
+          "name": "Rishabh Pant",
+          "role": "Wicketkeeper",
+          "price": 100
+        },
+        {
+          "id": 5,
+          "name": "Hardik Pandya",
+          "role": "All-rounder",
+          "price": 100
+        },
+        {
+          "id": 6,
+          "name": "Jasprit Bumrah",
+          "role": "Bowler",
+          "price": 100
+        },
+        {
+          "id": 7,
+          "name": "Mohammed Shami",
+          "role": "Bowler",
+          "price": 100
+        },
+        {
+          "id": 8,
+          "name": "Yuzvendra Chahal",
+          "role": "Bowler",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Australia",
+      "players": [
+        {
+          "id": 1,
+          "name": "David Warner",
+          "role": "Batsman",
+          "price": 100
+        },
+        {
+          "id": 2,
+          "name": "Marnus Labuschagne",
+          "role": "Batsman",
+          "price": 150
+        },
+        {
+          "id": 3,
+          "name": "Steve Smith",
+          "role": "Batsman",
+          "price": 100
+        },
+        {
+          "id": 4,
+          "name": "Aaron Finch",
+          "role": "Wicketkeeper",
+          "price": 100
+        },
+        {
+          "id": 5,
+          "name": "Glenn Maxwell",
+          "role": "All-rounder",
+          "price": 100
+        },
+        {
+          "id": 6,
+          "name": "Pat Cummins",
+          "role": "Bowler",
+          "price": 100
+        },
+        {
+          "id": 7,
+          "name": "Josh Hazlewood",
+          "role": "Bowler",
+          "price": 100
+        },
+        {
+          "id": 8,
+          "name": "Adam Zampa",
+          "role": "Bowler",
+          "price": 100
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .left-section {
+    width: 55%;
+    padding: 20px;
+    position: relative;
+    margin-top: 10%;
+  }
+
+  .heading-main {
+    font-size: 40px;
+    color: #5454cf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  hr {
+    width: 40%;
+    height: 5px;
+    border: none;
+    background-color: rgb(234, 211, 107);
+  }
+
+  .right-section {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .player-photo {
+    width: 200px;
+    margin: 8px;
+    border-radius: 20%;
+    border: 2px solid #9c9797;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .heading-h3 {
+    margin-left: 28%;
+    color: #6b6bc5;
+  }
+
+  .heading-p {
+    margin-left: 27%;
+    color: #6b6bc5;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -40px;
+  }
+
+  /* Button Styles */
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #6b6bc5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 28%;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #4e4ea2;
+    transform: scale(1.1);
+    /* Add more animations here if you like */
+  }
+  .yellow-img{
+    /* content: ""; */
+    width: 48px;
+    height: 105px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    margin-right: 40px;
+    /* background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/students/dotted-vector.svg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+  }
+.mix-img{
+    /* right: 40px; */
+    bottom: 15%;
+    width: 41px;
+    height: 110px;
+    margin-right: 100px;
+    /* margin-top: 30%; */
+    position: absolute;
+    right: -90px;
+}
+ .blue-img{
+    margin-left: 40px;
+ }
